@@ -24,7 +24,7 @@ tempo node \
   --discovery.addr 0.0.0.0 \
   --discovery.port 30303 \
   --consensus.signing-key $HOME/tempo-node/secrets/validator_key.json \
-  --consensus.fee-recipient 0x7b896407539587864401F92535cFa2b2f86bfaeD
+  --consensus.fee-recipient 0x7b8964075395878xxx
 ```
 ```bash
   tempo node \
@@ -34,7 +34,7 @@ tempo node \
   --discovery.addr 0.0.0.0 \
   --discovery.port 30303 \
   --consensus.signing-key $HOME/tempo-node/secrets/validator_key.json \
-  --consensus.fee-recipient 0x7b896407539587864401F92535cFa2b2f86bfaeD \
+  --consensus.fee-recipient 0x7b896407xxx \
   --http --http.addr 0.0.0.0 --http.port 8545 --http.api "eth,net,web3,txpool,trace" \
   --ws --ws.addr 127.0.0.1 --ws.port 8546 \
   --metrics 9000
