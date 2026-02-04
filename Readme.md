@@ -28,7 +28,7 @@ tempo node \
 ```
 ```bash
   tempo node \
-  --datadir /$HOME/tempo-node/data \
+  --datadir $HOME/tempo-node/data \
   --chain moderato \
   --port 30303 \
   --discovery.addr 0.0.0.0 \
