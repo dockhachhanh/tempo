@@ -1,5 +1,5 @@
 ```bash
-mv $HOME/tempo-node/data /home/quai/tempo-node/data.bak-$(date +%Y%m%d-%H%M%S)
+mv $HOME/tempo-node/data $HOME/tempo-node/data.bak-$(date +%Y%m%d-%H%M%S)
 mkdir -p $HOME/tempo-node/data
 ```
 ```bash
