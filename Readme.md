@@ -40,3 +40,12 @@ tempo node \
   --ws --ws.addr 127.0.0.1 --ws.port 8546 \
   --metrics 9000
 ```
+### If you only running RPC node
+```bash
+ExecStart=$HOME/.tempo/bin/tempo node \
+  --datadir $HOME/tempo-node/data \
+  --follow \
+  --chain moderato \
+  --http --http.addr 127.0.0.1 --http.port 8545 --http.api eth,net,web3,txpool,trace
+
+```
