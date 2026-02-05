@@ -26,6 +26,7 @@ tempo node \
   --consensus.signing-key $HOME/tempo-node/secrets/validator_key.json \
   --consensus.fee-recipient 0x7b8964075395878xxx
 ```
+### --consensus.fee-recipient 0x7b8964075395878xxx Validator address.
 ```bash
   tempo node \
   --datadir $HOME/tempo-node/data \
